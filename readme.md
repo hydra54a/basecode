@@ -47,4 +47,7 @@ This was setup in knex
 ```bash
 For Migration
 npx knex --knexfile ./database_and_migration/knexfile.ts migrate:latest
+
+For Seeding
+npx knex --knexfile ./database_and_migration/knexfile.ts seed:run
 ```
