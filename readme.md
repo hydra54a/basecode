@@ -39,3 +39,12 @@ Method: GET
 Endpoint:localhost:8080/v1/salary/<user_id>
 
 ```
+
+
+
+## Database migration
+This was setup in knex
+```bash
+For Migration
+npx knex --knexfile ./database_and_migration/knexfile.ts migrate:latest
+```
